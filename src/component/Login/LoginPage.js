@@ -23,7 +23,7 @@ class LoginPage extends Component {
                 }
         <form>
           <FormGroup >
-            <Label for="email">Email :</Label>
+            <Label for="email">Email</Label>
             <Input
               type="email"
               name="email"
