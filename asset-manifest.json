@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactsimpletest/static/css/main.b5623824.chunk.css",
+    "main.js": "/reactsimpletest/static/js/main.6b787482.chunk.js",
+    "main.js.map": "/reactsimpletest/static/js/main.6b787482.chunk.js.map",
+    "runtime-main.js": "/reactsimpletest/static/js/runtime-main.f8243d16.js",
+    "runtime-main.js.map": "/reactsimpletest/static/js/runtime-main.f8243d16.js.map",
+    "static/css/2.7c4efcaa.chunk.css": "/reactsimpletest/static/css/2.7c4efcaa.chunk.css",
+    "static/js/2.74edac93.chunk.js": "/reactsimpletest/static/js/2.74edac93.chunk.js",
+    "static/js/2.74edac93.chunk.js.map": "/reactsimpletest/static/js/2.74edac93.chunk.js.map",
+    "index.html": "/reactsimpletest/index.html",
+    "precache-manifest.84ffdb215a7fa0426a87792ffc6344f2.js": "/reactsimpletest/precache-manifest.84ffdb215a7fa0426a87792ffc6344f2.js",
+    "service-worker.js": "/reactsimpletest/service-worker.js",
+    "static/css/2.7c4efcaa.chunk.css.map": "/reactsimpletest/static/css/2.7c4efcaa.chunk.css.map",
+    "static/css/main.b5623824.chunk.css.map": "/reactsimpletest/static/css/main.b5623824.chunk.css.map",
+    "static/media/alogo.png": "/reactsimpletest/static/media/alogo.2522bc42.png",
+    "static/media/apple.png": "/reactsimpletest/static/media/apple.d18071ac.png",
+    "static/media/sdp.jpg": "/reactsimpletest/static/media/sdp.ffe430d7.jpg"
+  }
+}

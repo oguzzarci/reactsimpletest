@@ -1,0 +1,1 @@
+{"version":3,"sources":["AllComponent.css"],"names":[],"mappings":"AAAA,yBACI,OACE,cACF,CAEA,YACE,aAAc,CACd,eACF,CACF","file":"main.b5623824.chunk.css","sourcesContent":["@media all and (min-width: 480px) {\r\n    .Login {\r\n      padding: 70px 0;\r\n    }\r\n  \r\n    .Login form {\r\n      margin: 0 auto;\r\n      max-width: 320px;\r\n    }\r\n  }"]}
