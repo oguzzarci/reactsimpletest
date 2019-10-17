@@ -10,11 +10,15 @@ import {
 } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { Button } from "reactstrap";
+import {Link} from "react-router-dom"
+import AuthService from "../JwtServices/AuthService";
+const Auth = new AuthService();
 
 class Navi extends React.Component {
+
   constructor(props) {
     super(props);
-
+    this.Auth = new AuthService();
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
@@ -24,6 +28,10 @@ class Navi extends React.Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
+  }
+
+  handleLogout(){
+      Auth.logout();
   }
   render() {
     return (
@@ -37,14 +45,15 @@ class Navi extends React.Component {
                 <NavLink href="/usersettings">MyProfile</NavLink>
               </NavItem>
               <NavItem>
+                <Link to="/login">
                 <Button
                   color="danger"
                   size="sm"
-                  // disabled={!this.validateForm()}
                   type="submit"
+                  onClick={this.handleLogout.bind(this)}
                 >
                   Logout
-                </Button>
+                </Button></Link>
               </NavItem>
             </Nav>
           </Collapse>

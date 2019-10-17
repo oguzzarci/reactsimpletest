@@ -12,25 +12,30 @@ import {
 import {bindActionCreators} from "redux"
 import * as LoginAction from "../../redux/actions/LoginAction"
 import {connect} from "react-redux"
+import AuthService from "../JwtServices/AuthService"
+import initialState from "../../redux/reducers/initialState";
 
 class UserDetalil extends Component {
 
+  constructor() {
+    super();
+    this.Auth = new AuthService();
+  }
 
-  componentDidMount(){
-    // this.props.actions.getCategories()
+  componentWillMount() {
+    if (!this.Auth.loggedIn()) {
+      this.props.history.replace("/login");
+    }
   }
 
   render() {
 
     return (
       <div>
-        {
-          console.log(this.props.categories)
-        }
         <Navi />
         <Container style={{marginTop:'10%'}}>
             <FormGroup>
-              <Label for="userName">UserName : </Label> <Label>{this.props.categories.length}</Label>
+              <Label for="userName">UserName : </Label> <Label>asd</Label>
             </FormGroup>
             <FormGroup>
             <Label for="email">Email : </Label> <Label>admin@admin.com</Label>

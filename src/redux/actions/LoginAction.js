@@ -14,3 +14,8 @@ export function userCheck(){
   }
 }
 
+
+export function userCheckApiCall(){
+  
+}
+
